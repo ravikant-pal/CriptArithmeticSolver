@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pol.criptarithmeticsolver">
+
+        <application
+        android:allowBackup="true"
+        android:icon="@drawable/criptlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/criptlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdditionActivity" />
+        <activity android:name=".SubtractionActivity" />
+        <activity android:name=".AddResultActivity" />
+        <activity android:name=".SubResultActivity" />
+        <activity android:name=".MulResultActivity" />
+        <activity android:name=".DivResultActivity"></activity>
+    </application>
+
+</manifest>

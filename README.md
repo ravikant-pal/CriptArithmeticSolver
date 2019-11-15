@@ -1,0 +1,2 @@
+# CriptArithmeticSolver
+ logical cript solver
